@@ -1,0 +1,23 @@
+/*
+ * Smart LPG design tokens (from the Figma palette).
+ * Plain CSS variables so they can be used outside Tailwind too
+ * (inline styles, charts, third-party widgets).
+ */
+:root {
+  /* Brand */
+  --color-brand-500: #c9384d;           /* primary, 100% */
+  --color-brand-accent: #f25e6e;        /* use at ~14% for soft tints / badges */
+  --color-brand-soft: #db6e7a;          /* use at ~55% for secondary accents */
+  --color-brand-deep: #bf263d;          /* use at ~22% for subtle backgrounds */
+
+  --color-brand-accent-14: rgb(242 94 110 / 0.14);
+  --color-brand-soft-55: rgb(219 110 122 / 0.55);
+  --color-brand-deep-22: rgb(191 38 61 / 0.22);
+
+  /* Headings */
+  --color-ink: #16213a;                 /* near-black navy */
+
+  /* Gradients — auth backgrounds and primary CTA only */
+  --gradient-dark: linear-gradient(135deg, #8c1a2b 0%, #4f0f1c 55%, #ad2e3d 100%);
+  --gradient-button: linear-gradient(90deg, #c7334a 0%, #a81a33 55%, #e04f5e 100%);
+}
